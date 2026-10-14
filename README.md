@@ -1,63 +1,130 @@
-Pedra, Papel e Tesoura - App Android
+# ✊✋✌️ App Pedra, Papel e Tesoura
 
-Descrição
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Projeto%20de%20estudo-blue?style=for-the-badge)
 
-Este é um aplicativo Android simples do jogo "Pedra, Papel e Tesoura" desenvolvido em Java. O usuário pode escolher uma das opções (pedra, papel ou tesoura), e o aplicativo irá gerar uma escolha aleatória para competir contra ele. O resultado do jogo é exibido na tela.
+Aplicativo Android desenvolvido em **Java**, baseado no clássico jogo Pedra, Papel e Tesoura.
 
-Tecnologias Utilizadas
+O projeto foi criado com o objetivo de praticar desenvolvimento mobile, manipulação de elementos da interface Android e implementação de lógica de programação em uma aplicação interativa.
 
-Linguagem: Java
+## 🎮 Sobre o projeto
 
-Framework: Android SDK
+O aplicativo permite ao jogador participar de uma partida de Pedra, Papel e Tesoura, utilizando a interface do dispositivo Android para realizar suas escolhas.
 
-Interface: XML
+A proposta é transformar um exercício de lógica de programação em uma aplicação mobile, explorando conceitos fundamentais do desenvolvimento para Android.
 
-Funcionalidades
+## ✨ Funcionalidades
 
-O usuário pode escolher entre pedra, papel ou tesoura.
+- ✊ Escolha da opção Pedra.
+- ✋ Escolha da opção Papel.
+- ✌️ Escolha da opção Tesoura.
+- 🤖 Geração aleatória da escolha do computador.
+- 🏆 Comparação das escolhas para determinar o resultado da partida.
+- 📱 Interface gráfica desenvolvida para dispositivos Android.
 
-O aplicativo gera uma escolha aleatória.
+## 🛠️ Tecnologias utilizadas
 
-Exibição do resultado do jogo com base nas regras clássicas:
+| Tecnologia | Finalidade |
+|---|---|
+| Java | Implementação da lógica do jogo |
+| Android SDK | Recursos e funcionalidades da plataforma Android |
+| Android Studio | Ambiente de desenvolvimento |
+| XML | Definição de layouts e recursos visuais do aplicativo |
+| Git e GitHub | Versionamento e hospedagem do código-fonte |
 
-Pedra vence tesoura.
+## 🧠 Conceitos praticados
 
-Tesoura vence papel.
+Durante o desenvolvimento deste projeto, são trabalhados conceitos importantes para quem está começando na programação:
 
-Papel vence pedra.
+- Declaração e utilização de variáveis.
+- Estruturas condicionais (`if` e `else`).
+- Geração de números aleatórios com a classe `Random`.
+- Manipulação de eventos de clique.
+- Utilização de componentes visuais, como `ImageView` e `TextView`.
+- Organização de código Java em uma aplicação Android.
+- Integração entre interface gráfica e regras de negócio.
 
-Opções iguais resultam em empate.
+## 🚀 Como executar o projeto
 
-Como Executar o Projeto
+### 1. Pré-requisitos
 
-Clone este repositório:
+Antes de começar, tenha instalado:
 
-git clone https://github.com/seu-usuario/app-pedra-papel-tesoura.git
+- [Android Studio](https://developer.android.com/studio?hl=pt-br).
+- Android SDK compatível com a configuração do projeto.
+- Um emulador Android ou dispositivo físico compatível.
 
-Abra o projeto no Android Studio.
+### 2. Clone o repositório
 
-Conecte um dispositivo físico ou utilize um emulador.
+Abra o terminal e execute:
 
-Compile e execute o aplicativo.
+```bash
+git clone https://github.com/DavidMauricioDev/AppPedraPapelTesoura.git
+```
 
-Estrutura do Código
+### 3. Abra o projeto
 
-O código principal está localizado no arquivo MainActivity.java, onde temos:
+1. Inicie o Android Studio.
+2. Selecione **Open**.
+3. Localize a pasta `AppPedraPapelTesoura` que foi clonada.
+4. Aguarde a sincronização do Gradle.
+5. Caso o Android Studio solicite algum componente do SDK, verifique a configuração do projeto antes de instalá-lo.
 
-Métodos de seleção: selecionarPedra(), selecionarPapel(), selecionarTesoura().
+### 4. Execute o aplicativo
 
-Método de escolha aleatória: gerarEscolhaAleatoriaApp().
+1. Selecione um emulador Android ou conecte um dispositivo físico com a depuração USB habilitada.
+2. Aguarde a conclusão da sincronização e da compilação.
+3. Clique em **Run ▶** para instalar e executar o aplicativo.
 
-Lógica do jogo: verificarGanhador(String escolhaUsuario).
+> **Observação:** os requisitos de versão do Android e do Java dependem das configurações Gradle presentes no repositório.
 
-Melhorias Futuras
+## 📂 Estrutura do projeto
 
-Adição de animações e efeitos visuais.
+A organização segue a estrutura habitual de um aplicativo Android. Os diretórios e arquivos disponíveis podem variar conforme a configuração do projeto.
 
-Melhorias na interface com um design mais moderno.
+```text
+AppPedraPapelTesoura/
+├── app/
+│   └── src/
+│       └── main/
+│           ├── java/
+│           │   └── com/example/apppedrapapeltesoura/
+│           │       └── MainActivity.java
+│           ├── res/
+│           │   ├── drawable/
+│           │   ├── layout/
+│           │   └── values/
+│           └── AndroidManifest.xml
+├── build.gradle
+├── settings.gradle
+└── README.md
+```
 
-Implementação de placar e histórico de partidas.
+**Importante:** essa árvore é ilustrativa. Os nomes e a localização dos arquivos de configuração podem ser diferentes na versão atual do repositório.
 
-Autor
+## 📚 Objetivos de aprendizado
 
-Desenvolvido por David Mauricio.
+Este projeto faz parte da minha jornada de aprendizado em desenvolvimento de software e tem como objetivos:
+
+- Consolidar os fundamentos da linguagem Java.
+- Praticar a lógica de programação por meio de um jogo.
+- Aprender a desenvolver interfaces para Android.
+- Trabalhar com eventos e componentes visuais.
+- Desenvolver aplicações práticas para fortalecer meu portfólio.
+- Evoluir meus conhecimentos em desenvolvimento mobile.
+
+## 🔮 Possíveis melhorias futuras
+
+- Implementar um placar de vitórias, derrotas e empates.
+- Adicionar uma opção para reiniciar a partida.
+- Melhorar a experiência visual e as animações.
+- Adicionar efeitos sonoros.
+- Criar uma tela inicial e uma tela de resultados.
+- Melhorar a organização do código conforme avançar nos estudos.
+
+
+
+⭐ Este projeto representa mais uma etapa da minha evolução como desenvolvedor, unindo os fundamentos de Java à criação de aplicativos Android.
+
+*Praticar, construir projetos e aprender continuamente: um passo de cada vez.*
